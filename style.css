@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     margin: 100px;
@@ -129,33 +130,36 @@ section{
 .projects h1{
     margin-left: 60px;
 }
-.projects .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    background: black;
-    cursor: pointer;
+
+.career .box1{
+    display: inline-block;
+    padding-right: 70px;
+    margin-left: 60px;
 }
 
-.projects .phone{
-    position: absolute;
-    top: 50;
-    left: 50;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-
+.career h1{
+    margin-left: 60px;
 }
-.first:hover .overlay{
-    opacity: 0.8;
+.career #cv{
+    margin-left: 60px;
 }
 
+.problem p{
+    width: 420px;
+}
 
+.last_part{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px; 
 
+}
 
+.last_part .email{
+    text-align: center;
+}
 
+footer p{
+    margin-left: 60px;
+    margin: 0 auto;
+}
